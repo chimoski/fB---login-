@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 240, 245);
+}
+.container{
+    margin: 0 15% 0;
+    display: block;
+    width: 80%;
+    
+}
+.right-content{
+    background-color: white;
+    margin-top: 10%;
+    float: right;
+    text-align: center;
+    width: 35%; 
+    height: auto;
+    margin-right: 90px;
+    padding: 0.95rem 0.65rem 1.2rem;
+    background: rgba( 255, 255, 255, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba(168, 153, 121, 0.37);
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.left-content{
+    margin-top: 18%;
+    float: left;
+    width: 55%;
+}
+
+.fb{
+    color: rgb(57, 132, 230);
+    font-weight:700;
+    font-size: 4rem;   
+}
+
+.about-fb{
+    font-size: 2rem;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+
+form .input, .input{
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid rgb(230, 225, 225);
+    outline: none;
+    margin-bottom: 10px;
+
+}
+form .input::placeholder{
+    font-size: 1.2rem;
+
+}
+form .submit {
+    background-color: rgb(57, 132, 230);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+form .forgotten{
+    text-decoration: none;
+    color:rgb(97, 166, 194);
+    font-weight: bolder;
+}
+.line{
+    border: 0.5px solid rgb(233, 229, 229);
+    margin-top: 20px;
+}
+ .new{
+    margin-top: 20px;
+    width:55%;
+    background-color: rgb(12, 179, 12);
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+}
+
+@media(max-width:1123px) {
+    .right-content,.left-content {
+        float: none;
+        width: 100%;
+    }
+    .right-content{
+        margin-right: 0;
+    }
+    .fb{
+        font-size: 3rem;
+    }
+    
+    .about-fb{
+        font-size: 1.5rem;
+        font-family:sans-serif;
+        font-weight: 500;
+    }
+    .container{
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
